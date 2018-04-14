@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Joga Bonito</string>
+    <string-array name="items">
+        <item>foto</item>
+        <item>Bum Bum</item>
+        <item>BadBunny</item>
+        <item>foto</item>
+        <item>Solo Sola</item>
+        <item>Cosculluela</item>
+        <item>foto</item>
+        <item>Una flor</item>
+        <item>Ozuna</item>
+    </string-array>
+</resources>

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#9FA8DA"
+    tools:context="com.example.practica1.InfoActivity">
+
+    <RelativeLayout
+        android:id="@+id/layoutitle"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="#dcdcd7">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Jordi Vidal Roselló S.L"
+            android:gravity="center"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:background="#dcdcd7"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/layoutitle"
+        android:gravity="center">
+
+        <RelativeLayout
+            android:layout_width="350dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true">
+
+            <TextView
+
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="36dp"
+                android:text=" Sed vel pretium elit. Nunc id suscipit justo. Sed eros lectus, eleifend et urna sit amet, semper sollicitudin neque. Duis condimentum viverra feugiat."
+                android:textAlignment="center" />
+
+            <RelativeLayout
+                android:background="#dcdcd7"
+                android:id="@+id/relativeFotos"
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:layout_below="@+id/textView"
+                android:layout_marginTop="30dp">
+                //Aquest boto nomes esta habilitat en el layotland
+                <ImageButton
+                    android:id="@+id/img6"
+                    android:layout_width="65dp"
+                    android:layout_height="65dp"
+                    android:layout_below="@id/img4"
+                    android:layout_toRightOf="@id/img5"
+                    android:background="@android:color/holo_red_light"
+                    app:srcCompat="@drawable/youtube" />
+                //Primer boto
+                <ImageButton
+                    android:id="@+id/img1"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignTop="@+id/img2"
+                    android:background="@color/colorPrimary"
+                    app:srcCompat="@drawable/facebook" />
+
+                <ImageButton
+                    android:id="@+id/img2"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@+id/img1"
+                    android:background="#5d5b55"
+                    app:srcCompat="@drawable/ainstagram" />
+
+                <ImageButton
+                    android:id="@+id/img3"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@+id/img2"
+                    android:background="@android:color/holo_blue_dark"
+                    app:srcCompat="@drawable/twitter" />
+
+                <ImageButton
+                    android:id="@+id/img4"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@+id/img3"
+                    android:background="#f2f215"
+                    app:srcCompat="@drawable/snap" />
+
+                <ImageButton
+                    android:id="@+id/img5"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@+id/img4"
+                    android:background="@android:color/background_dark"
+                    app:srcCompat="@drawable/github" />
+
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/textoValorar"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@+id/relativeFotos"
+                android:gravity="center"
+                android:text="Valora la aplicacion" />
+
+            <RatingBar
+                android:id="@+id/ratingBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textoValorar"
+                android:layout_centerHorizontal="true" />
+
+            <ImageButton
+                android:id="@+id/bntInicio"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/ratingBar"
+                android:background="#e20f16"
+                android:rotation="180"
+                app:srcCompat="@android:drawable/ic_menu_directions" />
+        </RelativeLayout>
+
+    </RelativeLayout>
+</RelativeLayout>

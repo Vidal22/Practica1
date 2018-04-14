@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#9FA8DA"
+    tools:context="com.example.practica1.AjusActivity">
+
+
+    <RelativeLayout
+        android:id="@+id/superior"
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+        <TextView
+            android:id="@+id/titol"
+            android:layout_width="360dp"
+            android:layout_height="50dp"
+            android:text="AJUSTAMENTS"
+            android:gravity="center"
+            android:textSize="20dp"
+            />
+        <TextView
+            android:id="@+id/subtitol"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_toRightOf="@+id/titol"
+            android:text="Perfil"
+            android:gravity="center_vertical"
+            android:textSize="20dp"
+            />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/centre"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:layout_below="@+id/superior">
+        <RelativeLayout
+            android:id="@+id/relativeFoto"
+            android:layout_width="375dp"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imagePerfil"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_centerHorizontal="true"
+                app:srcCompat="@mipmap/ic_launcher" />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/centreseleccio"
+            android:layout_width="220dp"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:layout_toRightOf="@+id/relativeFoto">
+
+            <ImageButton
+                android:id="@+id/btnCamara"
+                android:layout_alignParentLeft="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@android:drawable/ic_menu_camera" />
+
+            <ImageButton
+                android:id="@+id/btnGaleria"
+                android:layout_alignParentLeft="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/btnCamara"
+                app:srcCompat="@android:drawable/ic_menu_gallery" />
+        </RelativeLayout>
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:layout_below="@+id/centre">
+
+        <RelativeLayout
+            android:id="@+id/relativeNom"
+            android:layout_width="290dp"
+            android:layout_height="match_parent"
+            >
+            <TextView
+                android:id="@+id/nom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="NOM:"
+                android:textSize="15dp"
+                android:layout_marginLeft="50dp"/>
+            <EditText
+                android:id="@+id/TextNom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/nom"
+                android:layout_centerVertical="true"
+                android:ems="10"
+                android:inputType="textPersonName"
+                />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@+id/relativeNom">
+            <Button
+                android:id="@+id/btnEnviar"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="Enviar"/>
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

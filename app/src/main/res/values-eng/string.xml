@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Joga Bonito</string>
+    <string name="Menú_Principal">Main Menu</string>
+    <string name="Jugar">Play</string>
+    <string name="Ajustaments">Settings</string>
+    <string name="Ranquing">Ranking</string>
+    <string name="Informació">Information</string>
+
+    <string name="AJUSTAMENTS">Settings</string>
+    <string name="Perfil">Profile</string>
+    <string name="NOM">NAME</string>
+    <string-array name="items">
+        <item>1</item>
+        <item>vIDIIC</item>
+        <item>69323</item>
+        <item>2</item>
+        <item>jORHFE</item>
+        <item>22323</item>
+        <item>3</item>
+        <item>pEDRHINHO</item>
+        <item>53232</item>
+        <item>1</item>
+        <item>vIDIIC</item>
+        <item>69323</item>
+        <item>2</item>
+        <item>jORHFE</item>
+        <item>22323</item>
+        <item>3</item>
+        <item>pEDRHINHO</item>
+        <item>53232</item>
+        <item>1</item>
+        <item>vIDIIC</item>
+        <item>69323</item>
+        <item>2</item>
+        <item>jORHFE</item>
+        <item>22323</item>
+        <item>3</item>
+        <item>pEDRHINHO</item>
+        <item>53232</item>
+        <item>1</item>
+        <item>vIDIIC</item>
+        <item>69323</item>
+        <item>2</item>
+        <item>jORHFE</item>
+        <item>22323</item>
+        <item>3</item>
+        <item>pEDRHINHO</item>
+        <item>53232</item>
+    </string-array>
+
+</resources>

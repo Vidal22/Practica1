@@ -1,0 +1,26 @@
+<resources>
+
+    <string name="app_name">Joga Bonito</string>
+    <string name="Menú_Principal">Menú Principal</string>
+    <string name="Jugar">Jugar</string>
+    <string name="Ajustaments">Ajustaments</string>
+    <string name="Ranquing">Ranquing</string>
+    <string name="Informació">Informació</string>
+
+    <string name="AJUSTAMENTS">Ajustaments</string>
+    <string name="Perfil">Perfil</string>
+    <string name="NOM">NOM</string>
+    <string-array name="items">
+        <item>foto</item>
+        <item>Bum Bum</item>
+        <item>BadBunny</item>
+        <item>foto</item>
+        <item>Solo Sola</item>
+        <item>Cosculluela</item>
+        <item>foto</item>
+        <item>Una flor</item>
+        <item>Ozuna</item>
+
+    </string-array>
+
+</resources>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#9FA8DA"
+    tools:context="com.example.practica1.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/superior">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Menú Principal"
+            android:gravity="center"
+            android:textSize="30dp"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:id="@+id/centre"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <Button
+            android:id="@+id/btnJugar"
+            android:layout_width="320dp"
+            android:layout_height="40dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="5dp"
+            android:text="Jugar" />
+
+        <Button
+            android:id="@+id/btnRanq"
+            android:layout_width="320dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/btnJugar"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="5dp"
+            android:text="Ranquing" />
+
+        <Button
+            android:id="@+id/btnAjus"
+            android:layout_width="320dp"
+            android:layout_height="40dp"
+            android:layout_below="@id/btnRanq"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="5dp"
+            android:text="Ajustaments" />
+
+        <Button
+            android:id="@+id/btnInfo"
+            android:layout_width="320dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/btnAjus"
+            android:layout_centerHorizontal="true"
+            android:text="Informació" />
+
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:id="@+id/inferior"
+        android:layout_below="@+id/centre">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Jordi Vidal Roselló"
+            android:gravity="center"/>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
